@@ -1,3 +1,93 @@
+CREATE TABLE IF NOT EXISTS pays (
+    code_pays VARCHAR(10) PRIMARY KEY,
+    libelle VARCHAR(200) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS ville (
+    id_ville SERIAL PRIMARY KEY,
+    libelle VARCHAR(500) NOT NULL,
+    code_postal VARCHAR(10) NOT NULL,
+	pays VARCHAR(10) REFERENCES pays NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS adresse(
+    id_adresse SERIAL PRIMARY KEY,
+	numero INTEGER NOT NULL,
+    voie VARCHAR(100) NOT NULL,
+    ville INTEGER REFERENCES ville NOT NULL
+);
+
+CREATE TYPE sexe AS ENUM('Homme','Femme');
+
+CREATE TABLE IF NOT EXISTS client (
+    id_client VARCHAR(50) PRIMARY KEY,
+    nom VARCHAR(100) NOT NULL,
+    prenom VARCHAR(100) NOT NULL,
+    sexe_client sexe NOT NULL,
+    date_naissance DATE NOT NULL,
+    date_inscription TIMESTAMP NOT NULL,
+    num_tel VARCHAR(10),
+    email VARCHAR(50),
+	ville_naissance INTEGER REFERENCES ville NOT NULL,
+	domicile INTEGER REFERENCES adresse NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS agence (
+    code_agence VARCHAR(20) PRIMARY KEY,
+	adresse INTEGER REFERENCES adresse NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS type_compte (
+    nom_type VARCHAR(50) PRIMARY KEY
+);
+
+CREATE TABLE IF NOT EXISTS compte (
+    id_compte VARCHAR(20) PRIMARY KEY,
+    solde NUMERIC,
+    IBAN VARCHAR(27) NOT NULL,
+	type_compte VARCHAR(50) REFERENCES type_compte NOT NULL,
+    agence VARCHAR(50) REFERENCES agence NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS titulaire (
+    compte VARCHAR(20) REFERENCES compte NOT NULL,
+    client VARCHAR(50) REFERENCES client NOT NULL,
+    UNIQUE (compte, client)
+);
+
+CREATE TABLE IF NOT EXISTS carte_bancaire (
+    num_carte VARCHAR(16) PRIMARY KEY,
+    date_expiration DATE NOT NULL,
+	compte VARCHAR(20) REFERENCES compte NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS operation (
+    id_operation VARCHAR(50) PRIMARY KEY,
+    montant NUMERIC NOT NULL,
+    date_heure DATE NOT NULL,
+	compte VARCHAR(20) REFERENCES compte NOT NULL,
+    carte_bancaire VARCHAR(16) REFERENCES carte_bancaire NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS distributeur (
+    id_distributeur VARCHAR(50) PRIMARY KEY,
+    adresse INTEGER REFERENCES adresse NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS retrait_depot (
+    distributeur VARCHAR(50) REFERENCES distributeur NOT NULL
+) INHERITS (operation);
+
+CREATE TABLE IF NOT EXISTS type_operation (
+    nom_type_operation VARCHAR(100) PRIMARY KEY
+);
+
+CREATE TABLE IF NOT EXISTS operation_tiers (
+    IBAN_tiers VARCHAR(27) NOT NULL,
+    BIC_tiers VARCHAR(11) NOT NULL,
+	type_operation VARCHAR(100) REFERENCES type_operation NOT NULL
+) INHERITS (operation);
+
 INSERT INTO pays VALUES (1,'France');
 INSERT INTO pays VALUES (2,'Espagne');
 INSERT INTO pays VALUES (3,'Suisse');
