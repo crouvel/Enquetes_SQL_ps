@@ -112,7 +112,7 @@ INSERT INTO adresse VALUES (8, 17,'Raspail',8);
 
 INSERT INTO client VALUES (852741963, 'Mercier', 'Marc', 'Homme', '1995-03-16', '2010-03-16' , 0652418973, 'marc.mercier@gmail.com', 1, 1);
 INSERT INTO client VALUES (100589675, 'Jones', 'Chloe', 'Femme', '1985-03-16', '2014-08-31' , 0745862359, 'joness.mrs@yahoo.co.uk', 7, 7);
-INSERT INTO client VALUES (100589569, 'Siemens', 'Charlotte', 'Femme', '1992-02-17', '2009-11-29' , 0652314879, 'charlotte.siemens@gmail.com', , 7);
+INSERT INTO client VALUES (100589569, 'Siemens', 'Charlotte', 'Femme', '1992-02-17', '2009-11-29' , 0652314879, 'charlotte.siemens@gmail.com', 6, 8);
 
 INSERT INTO agence VALUES (1684, 2);
 INSERT INTO agence VALUES (3005, 5);
