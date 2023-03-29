@@ -99,18 +99,20 @@ INSERT INTO ville VALUES (4,'Marseille',13000,1);
 INSERT INTO ville VALUES (5,'Lyon',69000,1);
 INSERT INTO ville VALUES (6,'Madrid',28000,2);
 INSERT INTO ville VALUES (7,'Geneve',1200,3);
+INSERT INTO ville VALUES (8,'Carcassonne',11000,1);
 
 INSERT INTO adresse VALUES (1, 15,'Moulares',1);
 INSERT INTO adresse VALUES (2, 8,'Victor Hugo',1);
 INSERT INTO adresse VALUES (3, 2,'Marais',2);
-INSERT INTO adresse VALUES (4, 71,'Franck Roosevelt',5);
+INSERT INTO adresse VALUES (4, 71,'Franklin Roosevelt',5);
 INSERT INTO adresse VALUES (5, 1,'Justice',1);
 INSERT INTO adresse VALUES (6, 36,'Gambetta',4);
 INSERT INTO adresse VALUES (7, 21,'St Pierre',4);
+INSERT INTO adresse VALUES (8, 17,'Raspail',8);
 
 INSERT INTO client VALUES (852741963, 'Mercier', 'Marc', 'Homme', '1995-03-16', '2010-03-16' , 0652418973, 'marc.mercier@gmail.com', 1, 1);
 INSERT INTO client VALUES (100589675, 'Jones', 'Chloe', 'Femme', '1985-03-16', '2014-08-31' , 0745862359, 'joness.mrs@yahoo.co.uk', 7, 7);
-
+INSERT INTO client VALUES (100589569, 'Siemens', 'Charlotte', 'Femme', '1992-02-17', '2009-11-29' , 0652314879, 'charlotte.siemens@gmail.com', , 7);
 
 INSERT INTO agence VALUES (1684, 2);
 INSERT INTO agence VALUES (3005, 5);
