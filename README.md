@@ -14,17 +14,14 @@ Il a été repris par la suite par Clarence Rouvel.
 
 Vous devez accéder à un outil en ligne permettant d'éxécuter des requêtes en SQL pour le langage PostGreSQL.
 
-https://www.crunchydata.com/developers/playground/psql-basics
+https://www.crunchydata.com/developers/playground
 
-(image capture d'écran)
-Sur la partie gauche, un rappel de commandes basiques est fait. 
-Ne vous inquiétez pas, les commandes que nous allons utiliser seront explicitées si vous ne voulez avoir à faire tout la lecture.
-
-Sur la partie droite, c'est ici que nous allons travailler ! 
+C'est dans ce terminal que nous allons travailler ! 
 Donc retenez ces quelques points, avant que nous puissions démarrer !
+
+### Lien afin de résoudre l'enquête 1 : https://www.crunchydata.com/developers/playground?sql=https://raw.githubusercontent.com/crouvel/Enquetes_SQL_ps/main/creation_remplissage_enquete1.sql
 
 ### Lien afin de résoudre l'enquête 2 : https://www.crunchydata.com/developers/playground?sql=https://raw.githubusercontent.com/crouvel/Enquetes_SQL_ps/main/creation_remplissage_enquete2.sql
 
 ### Lien afin de résoudre l'enquête 3 : https://www.crunchydata.com/developers/playground?sql=https://raw.githubusercontent.com/crouvel/Enquetes_SQL_ps/main/creation_enquete3.sql
-
 
