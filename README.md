@@ -5,16 +5,16 @@ Ceci est un dossier contenant les différents éléments afin de parvenir à la 
 Ce projet a été élaboré par les élèves Sébastien Cortes et Eya Jelassi, sous la direction de Mme Anne Laurent. 
 Il a été repris par la suite par Clarence Rouvel.
 
-## Prise de connaissances des différents fichiers du dossier 
+# Prise de connaissances des différents fichiers du dossier 
 
 #### Ici, chaque dossier et fichiers de ce répertoire seront explicités, afin de comprendre leur utilité et effectuer chaque étape convenablement.
 
 
-## Prise en main de l'outil 
+# Prise en main de l'outil 
 
 Vous devez accéder à un outil en ligne permettant d'éxécuter des requêtes en SQL pour le langage PostGreSQL.
 
-https://www.crunchydata.com/developers/playground
+### https://www.crunchydata.com/developers/playground
 
 C'est dans ce terminal que nous allons travailler ! 
 Donc retenez ces quelques points, avant que nous puissions démarrer !
