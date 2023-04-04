@@ -101,12 +101,12 @@ INSERT INTO matiere VALUES ('Sport');
 --
 
 
-INSERT INTO professeur VALUES ('Mari',  'Vermine', '1969-03-25', 1, 'f');
-INSERT INTO professeur VALUES ('Gilbert',  'Leclerc',  '1986-04-06',2, 't');
+INSERT INTO professeur VALUES ('Marie',  'Vermine', '1969-03-25', 1, f);
+INSERT INTO professeur VALUES ('Gilbert',  'Leclerc',  '1986-04-06',2, t);
 INSERT INTO professeur VALUES ('Ann',  'Texier', '1989-07-24',3,'t');
-INSERT INTO professeur VALUES ('Yolande', 'Lavergne', '1980-07-12',4, 'f');
-INSERT INTO professeur VALUES ('Jennifer', 'Roche', '1976-03-07', 5, 'f');
-INSERT INTO professeur VALUES ('Colett',  'Da costa', '1981-01-13', 6, 'f');
+INSERT INTO professeur VALUES ('Yolande', 'Lavergne', '1980-07-12',4, f);
+INSERT INTO professeur VALUES ('Jennifer', 'Roche', '1976-03-07', 5, f);
+INSERT INTO professeur VALUES ('Colett',  'Da costa', '1981-01-13', 6, f);
 
 
 
@@ -139,7 +139,7 @@ INSERT INTO controle VALUES (20,	1,	'Francais',	3,	20,	3.00,	'2022-04-11',	'Cont
 INSERT INTO controle VALUES (21,	1,	'Francais',	3,	20,	2.00,	'2022-02-16',	'Controle de Francais du 16/02/2022');
 INSERT INTO controle VALUES (22,	1,	'Francais',	3,	20,	1.00,	'2021-10-27',	'Controle de Francais du 27/10/2021');
 INSERT INTO controle VALUES (23,	1,	'Francais',	3,	20,	2.00,	'2021-10-29',	'Controle de Francais du 29/10/2021');
-INSERT INTO controle VALUES (24,	1,	'Francais'	3,	20,	2.00,	'2022-01-24',	'Controle de Francais du 24/01/2022');
+INSERT INTO controle VALUES (24,	1,	'Francais',	3,	20,	2.00,	'2022-01-24',	'Controle de Francais du 24/01/2022');
 INSERT INTO controle VALUES (25,	1,	'Francais',	4,	20,	3.00,	'2022-06-09',	'Controle de Francais du 09/06/2022');
 INSERT INTO controle VALUES (26,	1,	'Francais',	4,	20,	1.00,	'2022-01-28',	'Controle de Francais du 28/01/2022');
 INSERT INTO controle VALUES (27,	1,	'Francais',	4,	20,	2.00,	'2021-11-02',	'Controle de Francais du 02/11/2021');
@@ -148,7 +148,7 @@ INSERT INTO controle VALUES (29,	1,	'Francais',	4,	20,	3.00,	'2022-02-26',	'Cont
 INSERT INTO controle VALUES (30,	1,	'Francais',	4,	20,	3.00,	'2021-10-22',	'Controle de Francais du 22/10/2021');
 INSERT INTO controle VALUES (31,	1,	'Francais',	4,	20,	2.00,	'2021-12-16',	'Controle de Francais du 16/12/2021');
 INSERT INTO controle VALUES (32,	1,	'Francais',	4,	20,	3.00,	'2022-06-08',	'Controle de Francais du 08/06/2022');
-INSERT INTO controle VALUES (33,	1,	'Francais'	5,	20,	2.00,	'2021-09-03',	'Controle de Francais du 03/09/2021');
+INSERT INTO controle VALUES (33,	1,	'Francais',	5,	20,	2.00,	'2021-09-03',	'Controle de Francais du 03/09/2021');
 INSERT INTO controle VALUES (34,	1,	'Francais',	5,	20,	2.00,	'2022-03-31',	'Controle de Francais du 31/03/2022');
 INSERT INTO controle VALUES (35,	1,	'Francais',	5,	20,	2.00,	'2022-01-10',	'Controle de Francais du 10/01/2022');
 INSERT INTO controle VALUES (36,	1,	'Francais',	5,	20,	1.00,	'2021-10-31',	'Controle de Francais du 31/10/2021');
@@ -215,8 +215,8 @@ INSERT INTO controle VALUES (96,	2,	'Histoire-geographie',	5,	20,	2.00,	'2022-04
 INSERT INTO controle VALUES (97,	2,	'Histoire-geographie',	6,	20,	3.00,	'2022-02-21',	'Controle de Histoire-geographie du 21/02/2022');
 INSERT INTO controle VALUES (98,	2,	'Histoire-geographie',	6,	20,	3.00,	'2022-01-14',	'Controle de Histoire-geographie du 14/01/2022');
 INSERT INTO controle VALUES (99,	2,	'Histoire-geographie',	6,	20,	1.00,	'2021-11-30',	'Controle de Histoire-geographie du 30/11/2021');
-INSERT INTO controle VALUES (100, 2 	'Histoire-geographie',	6,	5,	3.00,	'2022-02-19',	'Controle de Histoire-geographie du 19/02/2022');
-INSERT INTO controle VALUES (101,	2,	'Histoire-geographie',	6,	20, 1.00	'2022-05-03',	'Controle de Histoire-geographie du 03/05/2022');
+INSERT INTO controle VALUES (100, 2,	'Histoire-geographie',	6,	5,	3.00,	'2022-02-19',	'Controle de Histoire-geographie du 19/02/2022');
+INSERT INTO controle VALUES (101,	2,	'Histoire-geographie',	6,	20, 1.00,	'2022-05-03',	'Controle de Histoire-geographie du 03/05/2022');
 INSERT INTO controle VALUES (102,2,	'Histoire-geographie',	6,	20,	1.00,	'2022-04-16',	'Controle de Histoire-geographie du 16/04/2022');
 INSERT INTO controle VALUES (103,2,	'Histoire-geographie',	6,	20,	3.00,	'2022-03-29',	'Controle de Histoire-geographie du 29/03/2022');
 INSERT INTO controle VALUES (104,	2,	'Histoire-geographie',	6,	20,	3.00,	'2021-11-27',	'Controle de Histoire-geographie du 27/11/2021');
@@ -226,8 +226,8 @@ INSERT INTO controle VALUES (107,	2,	'Histoire-geographie',	7,	10,	1.00,	'2021-1
 INSERT INTO controle VALUES (108,	2,	'Histoire-geographie',	7,	20,	3.00,	'2022-03-13',	'Controle de Histoire-geographie du 13/03/2022');
 INSERT INTO controle VALUES (109,	2,	'Histoire-geographie',	7,	20,	1.00,	'2021-12-25',	'Controle de Histoire-geographie du 25/12/2021');
 INSERT INTO controle VALUES (110,	2,	'Histoire-geographie',	7,	20, 2.00,	'2021-10-11',	'Controle de Histoire-geographie du 11/10/2021');
-INSERT INTO controle VALUES (111	,2	'Histoire-geographie',	7,	20,	1.00,	'2022-06-07',	'Controle de Histoire-geographie du 07/06/2022');
-INSERT INTO controle VALUES (112	,2	'Histoire-geographie',	7,	20,	3.00,	'2021-12-14',	'Controle de Histoire-geographie du 14/12/2021');
+INSERT INTO controle VALUES (111	,2,	'Histoire-geographie',	7,	20,	1.00,	'2022-06-07',	'Controle de Histoire-geographie du 07/06/2022');
+INSERT INTO controle VALUES (112	,2,'Histoire-geographie',	7,	20,	3.00,	'2021-12-14',	'Controle de Histoire-geographie du 14/12/2021');
 INSERT INTO controle VALUES (113,	3,	'Mathematiques',	1,	20,	3.00,	'2021-11-14',	'Controle de Mathematiques du 14/11/2021');
 INSERT INTO controle VALUES (114,	3,	'Mathematiques',	1,	20,	3.00,	'2021-12-11',	'Controle de Mathematiques du 11/12/2021');
 INSERT INTO controle VALUES (115,	3,	'Mathematiques',	1,	20,	1.00,	'2021-10-13',	'Controle de Mathematiques du 13/10/2021');
@@ -252,7 +252,7 @@ INSERT INTO controle VALUES (133,	3,	'Mathematiques',	3,	20,	2.00,	'2021-10-26',
 INSERT INTO controle VALUES (134,	3,	'Mathematiques',	3,	20,	3.00,	'2022-02-08',	'Controle de Mathematiques du 08/02/2022');
 INSERT INTO controle VALUES (135,	3,	'Mathematiques',	3,	20,	2.00,	'2022-01-09',	'Controle de Mathematiques du 09/01/2022');
 INSERT INTO controle VALUES (136,	3,	'Mathematiques',	3,	20,	3.00,	'2021-11-03',	'Controle de Mathematiques du 03/11/2021');
-INSERT INTO controle VALUES (290,	6,,	'Sport',,	,2,	,10,	2,.'00,	'2021-',10-28',	'Controle de Sport du 28/10/2021');
+INSERT INTO controle VALUES (290,	6,	'Sport',	,2,	,10,	2,.'00,	'2021-',10-28',	'Controle de Sport du 28/10/2021');
 INSERT INTO controle VALUES (137,	3,	'Mathematiques',	4,	20,	3.00,	'2021-10-19',	'Controle de Mathematiques du 19/10/2021');
 INSERT INTO controle VALUES (138,	3,	'Mathematiques',	4,	20,	1.00,	'2022-02-19',	'Controle de Mathematiques du 19/02/2022');
 INSERT INTO controle VALUES (139,	3,	'Mathematiques',	4,	20,	1.00,	'2021-11-28',	'Controle de Mathematiques du 28/11/2021');
@@ -302,19 +302,19 @@ INSERT INTO controle VALUES (182,	4,	'Physique-chimie',	2,	20,	3.00,	'2022-01-21
 INSERT INTO controle VALUES (183,	4,	'Physique-chimie',	2,	20,	1.00,	'2022-04-02',	'Controle de Physique-chimie du 02/04/2022');
 INSERT INTO controle VALUES (184,	4,	'Physique-chimie',	2,	10,	1.00,	'2022-06-19',	'Controle de Physique-chimie du 19/06/2022');
 INSERT INTO controle VALUES (185,	4,	'Physique-chimie',	3,	20,	3.00,	'2021-11-11',	'Controle de Physique-chimie du 11/11/2021');
-INSERT INTO controle VALUES (186,	4,	'Physique-chimie',	3,,	5,	,3.00,   '2022-03-17',  'Controle de Physique-chimie du 17/03/2022');
+INSERT INTO controle VALUES (186,	4,	'Physique-chimie',	3,	5,	,3.00,   '2022-03-17',  'Controle de Physique-chimie du 17/03/2022');
 INSERT INTO controle VALUES (187,	4,	'Physique-chimie',	3,	20,	1.00,	'2022-06-10',	'Controle de Physique-chimie du 10/06/2022');
 INSERT INTO controle VALUES (188,	4,	'Physique-chimie',	3,	20,	3.00,	'2022-06-23',	'Controle de Physique-chimie du 23/06/2022');
 INSERT INTO controle VALUES (189,	4,	'Physique-chimie',	3,	20,	2.00,	'2022-04-20',	'Controle de Physique-chimie du 20/04/2022');
 INSERT INTO controle VALUES (190,	4,	'Physique-chimie',	3,	10,	1.00,	'2022-02-18',	'Controle de Physique-chimie du 18/02/2022');
 INSERT INTO controle VALUES (191,	4,	'Physique-chimie',	3,	10,	2.00,	'2022-05-13',	'Controle de Physique-chimie du 13/05/2022');
-INSERT INTO controle VALUES (192,	4,	'Physique-chimie',	3,,	5,	,1.00,   '2021-10-30',	'Controle de Physique-chimie du 30/10/2021');
+INSERT INTO controle VALUES (192,	4,	'Physique-chimie',	3,	5,	,1.00,   '2021-10-30',	'Controle de Physique-chimie du 30/10/2021');
 INSERT INTO controle VALUES (193,	4,	'Physique-chimie',	4,	10,	3.00,	'2022-06-24',	'Controle de Physique-chimie du 24/06/2022');
 INSERT INTO controle VALUES (194,	4,	'Physique-chimie',	4,	20,	3.00,	'2021-09-14',	'Controle de Physique-chimie du 14/09/2021');
-INSERT INTO controle VALUES (195,	4,	'Physique-chimie',	4,,	5,	,2.00,   '2022-04-11',	'Controle de Physique-chimie du 11/04/2022');
+INSERT INTO controle VALUES (195,	4,	'Physique-chimie',	4,	5,	,2.00,   '2022-04-11',	'Controle de Physique-chimie du 11/04/2022');
 INSERT INTO controle VALUES (196,	4,	'Physique-chimie',	4,	20,	1.00,	'2021-12-16',	'Controle de Physique-chimie du 16/12/2021');
-INSERT INTO controle VALUES (197,	4,	'Physique-chimie',	4,,	5,	,1.00,   '2022-03-17',  'Controle de Physique-chimie du 17/03/2022');
-INSERT INTO controle VALUES (198,	4,	'Physique-chimie',	4,,	5,	,1.00,   '2021-12-10',	'Controle de Physique-chimie du 10/12/2021');
+INSERT INTO controle VALUES (197,	4,	'Physique-chimie',	4,	5,	,1.00,   '2022-03-17',  'Controle de Physique-chimie du 17/03/2022');
+INSERT INTO controle VALUES (198,	4,	'Physique-chimie',	4,	5,	,1.00,   '2021-12-10',	'Controle de Physique-chimie du 10/12/2021');
 INSERT INTO controle VALUES (199,	4,	'Physique-chimie',	4,	20,	1.00,	'2022-03-04',	'Controle de Physique-chimie du 04/03/2022');
 INSERT INTO controle VALUES (200,	4,	'Physique-chimie',	4,	10,	1.00,	'2022-05-29',	'Controle de Physique-chimie du 29/05/2022');
 INSERT INTO controle VALUES (201,	4,	'Physique-chimie',	5,	20,	2.00,	'2022-02-03',	'Controle de Physique-chimie du 03/02/2022');
@@ -331,7 +331,7 @@ INSERT INTO controle VALUES (211,	4,	'Physique-chimie',	6,	20,	3.00,	'2022-01-05
 INSERT INTO controle VALUES (212,	4,	'Physique-chimie',	6,	20,	3.00,	'2021-10-31',	'Controle de Physique-chimie du 31/10/2021');
 INSERT INTO controle VALUES (213,	4,	'Physique-chimie',	6,	20,	1.00,	'2021-11-02',	'Controle de Physique-chimie du 02/11/2021');
 INSERT INTO controle VALUES (214,	4,	'Physique-chimie',	6,	20,	3.00,	'2021-09-11',	'Controle de Physique-chimie du 11/09/2021');
-INSERT INTO controle VALUES (215,	4,	'Physique-chimie',	6,,	5,	,1.00,   '2021-11-17',	'Controle de Physique-chimie du 17/11/2021');
+INSERT INTO controle VALUES (215,	4,	'Physique-chimie',	6,	5,	,1.00,   '2021-11-17',	'Controle de Physique-chimie du 17/11/2021');
 INSERT INTO controle VALUES (216,	4,	'Physique-chimie',	6,	20,	1.00,	'2022-05-23',	'Controle de Physique-chimie du 23/05/2022');
 INSERT INTO controle VALUES (217,	4,	'Physique-chimie',	7,	20,	3.00,	'2021-09-26',	'Controle de Physique-chimie du 26/09/2021');
 INSERT INTO controle VALUES (218,	4,	'Physique-chimie',	7,	20,	3.00,	'2021-09-06',	'Controle de Physique-chimie du 06/09/2021');
@@ -350,7 +350,7 @@ INSERT INTO controle VALUES (230,	5,	'SVT',	1,	20,	2.00,	'2022-01-22',	'Controle
 INSERT INTO controle VALUES (231,	5,	'SVT',	1,	20,	2.00,	'2022-05-24',	'Controle de SVT du 24/05/2022');
 INSERT INTO controle VALUES (232,	5,	'SVT',	1,	20,	1.00,	'2021-11-09',	'Controle de SVT du 09/11/2021');
 INSERT INTO controle VALUES (233,	5,	'SVT',	2,	20,	1.00,	'2022-03-14',	'Controle de SVT du 14/03/2022');
-INSERT INTO controle VALUES (234,	5,	'SVT',	2,,	5,	,2.00, '2022-06-25',    'Controle de SVT du 25/06/2022');
+INSERT INTO controle VALUES (234,	5,	'SVT',	2,	5,	,2.00, '2022-06-25',    'Controle de SVT du 25/06/2022');
 INSERT INTO controle VALUES (235,	5,	'SVT',	2,	20,	3.00,	'2021-10-14',	'Controle de SVT du 14/10/2021');
 INSERT INTO controle VALUES (236,	5,	'SVT',	2,	20,	3.00,	'2022-03-20',	'Controle de SVT du 20/03/2022');
 INSERT INTO controle VALUES (237,	5,	'SVT',	2,	20,	3.00,	'2021-12-12',	'Controle de SVT du 12/12/2021');
@@ -389,20 +389,20 @@ INSERT INTO controle VALUES (269,	5,	'SVT',	6,	10,	1.00,	'2021-09-18',	'Controle
 INSERT INTO controle VALUES (270,	5,	'SVT',	6,	20,	2.00,	'2021-10-16',	'Controle de SVT du 16/10/2021');
 INSERT INTO controle VALUES (271,	5,	'SVT',	6,	20,	2.00,	'2022-01-08',	'Controle de SVT du 08/01/2022');
 INSERT INTO controle VALUES (272,	5,	'SVT',	6,	10,	2.00,	'2022-06-11',	'Controle de SVT du 11/06/2022');
-INSERT INTO controle VALUES (273, 5,	'SVT',	7,,	5,	,2.00, '2022-01-19',    'Controle de SVT du 19/01/2022');
+INSERT INTO controle VALUES (273, 5,	'SVT',	7,	5,	,2.00, '2022-01-19',    'Controle de SVT du 19/01/2022');
 INSERT INTO controle VALUES (274,	5,	'SVT',	7,	20,	1.00,	'2021-10-09',	'Controle de SVT du 09/10/2021');
 INSERT INTO controle VALUES (275,	5,	'SVT',	7,	20,	1.00,	'2022-06-01',	'Controle de SVT du 01/06/2022');
 INSERT INTO controle VALUES (276,	5,	'SVT',	7,	20,	1.00,	'2022-02-07',	'Controle de SVT du 07/02/2022');
-INSERT INTO controle VALUES (277,	5,	'SVT',	7,,	5,	,2.00, '2022-04-01',    'Controle de SVT du 01/04/2022');
+INSERT INTO controle VALUES (277,	5,	'SVT',	7,	5,	,2.00, '2022-04-01',    'Controle de SVT du 01/04/2022');
 INSERT INTO controle VALUES (278,	5,	'SVT',	7,	20,	3.00,	'2021-11-25',	'Controle de SVT du 25/11/2021');
 INSERT INTO controle VALUES (279,	5,	'SVT',	7,	10,	1.00,	'2021-09-11',	'Controle de SVT du 11/09/2021');
 INSERT INTO controle VALUES (280,	5,	'SVT',	7,	20,	2.00,	'2021-12-14',	'Controle de SVT du 14/12/2021');
-INSERT INTO controle VALUES (281,	6,	'Sport',	1,,	5,	,3.00,   '2022-03-06',  'Controle de Sport du 06/03/2022');
+INSERT INTO controle VALUES (281,	6,	'Sport',	1,	5,	,3.00,   '2022-03-06',  'Controle de Sport du 06/03/2022');
 INSERT INTO controle VALUES (282,	6,	'Sport',	1,	20,	2.00,	'2022-01-09',	'Controle de Sport du 09/01/2022');
 INSERT INTO controle VALUES (283,	6,	'Sport',	1,	20,	2.00,	'2022-02-08',	'Controle de Sport du 08/02/2022');
 INSERT INTO controle VALUES (284,	6,	'Sport',	1,	10,	1.00,	'2022-06-02',	'Controle de Sport du 02/06/2022');
 INSERT INTO controle VALUES (285,	6,	'Sport',	1,	20,	1.00,	'2022-01-16',	'Controle de Sport du 16/01/2022');
-INSERT INTO controle VALUES (286,	6,	'Sport',	1,,	5,	,1.00,  '2021-10-09' ,  'Controle de Sport du 09/10/2021');
+INSERT INTO controle VALUES (286,	6,	'Sport',	1,	5,	,1.00,  '2021-10-09' ,  'Controle de Sport du 09/10/2021');
 INSERT INTO controle VALUES (287,	6,	'Sport',	1,	20,	1.00,	'2022-03-16',	'Controle de Sport du 16/03/2022');
 INSERT INTO controle VALUES (288,	6,	'Sport',	1,	20,	2.00,	'2022-05-01',	'Controle de Sport du 01/05/2022');
 INSERT INTO controle VALUES (289,	6,	'Sport',	2,	20,	2.00,	'2022-02-21',	'Controle de Sport du 21/02/2022');
@@ -427,7 +427,7 @@ INSERT INTO controle VALUES (308,	6,	'Sport',	4,	20,	3.00,	'2022-05-23',	'Contro
 INSERT INTO controle VALUES (309,	6,	'Sport',	4,	20,	2.00,	'2021-12-07',	'Controle de Sport du 07/12/2021');
 INSERT INTO controle VALUES (310,	6,	'Sport',	4,	10,	1.00,	'2021-10-31',	'Controle de Sport du 31/10/2021');
 INSERT INTO controle VALUES (311,	6,	'Sport',	4,	20,	3.00,	'2021-10-20',	'Controle de Sport du 20/10/2021');
-INSERT INTO controle VALUES (312,	6,	'Sport',	4,,	5,	,1.00,  '2021-10-29' ,  'Controle de Sport du 29/10/2021');
+INSERT INTO controle VALUES (312,	6,	'Sport',	4,	5,	,1.00,  '2021-10-29' ,  'Controle de Sport du 29/10/2021');
 INSERT INTO controle VALUES (313,	6,	'Sport',	5,	20,	2.00,	'2021-12-11',	'Controle de Sport du 11/12/2021');
 INSERT INTO controle VALUES (314,	6,	'Sport',	5,	20,	1.00,	'2021-10-13',	'Controle de Sport du 13/10/2021');
 INSERT INTO controle VALUES (315,	6,	'Sport',	5,	10,	1.00,	'2022-02-01',	'Controle de Sport du 01/02/2022');
@@ -436,13 +436,13 @@ INSERT INTO controle VALUES (317,	6,	'Sport',	5,	10,	2.00,	'2022-03-08',	'Contro
 INSERT INTO controle VALUES (318,	6,	'Sport',	5,	20,	3.00,	'2022-05-17',	'Controle de Sport du 17/05/2022');
 INSERT INTO controle VALUES (319,	6,	'Sport',	5,	20,	1.00,	'2022-02-24',	'Controle de Sport du 24/02/2022');
 INSERT INTO controle VALUES (320,	6,	'Sport',	5,	20,	1.00,	'2022-01-10',	'Controle de Sport du 10/01/2022');
-INSERT INTO controle VALUES (321,	6,	'Sport',	6,,	5,	,3.00,  '2021-11-10' ,  'Controle de Sport du 10/11/2021');
+INSERT INTO controle VALUES (321,	6,	'Sport',	6,	5,	,3.00,  '2021-11-10' ,  'Controle de Sport du 10/11/2021');
 INSERT INTO controle VALUES (322,	6,	'Sport',	6,	20,	1.00,	'2022-06-01',	'Controle de Sport du 01/06/2022');
 INSERT INTO controle VALUES (323,	6,	'Sport',	6,	10,	2.00,	'2022-01-18',	'Controle de Sport du 18/01/2022');
 INSERT INTO controle VALUES (324,	6,	'Sport',	6,	20,	1.00,	'2021-10-05',	'Controle de Sport du 05/10/2021');
 INSERT INTO controle VALUES (325,	6,	'Sport',	6,	10,	3.00,	'2022-01-11',	'Controle de Sport du 11/01/2022');
 INSERT INTO controle VALUES (326,	6,	'Sport',	6,	20,	2.00,	'2022-04-05',	'Controle de Sport du 05/04/2022');
-INSERT INTO controle VALUES (327,	6,	'Sport',	6,,	5,	,1.00,   '2022-01-02',  'Controle de Sport du 02/01/2022');
+INSERT INTO controle VALUES (327,	6,	'Sport',	6,	5,	,1.00,   '2022-01-02',  'Controle de Sport du 02/01/2022');
 INSERT INTO controle VALUES (328,	6,	'Sport',	6,	20,	1.00,	'2021-11-15',	'Controle de Sport du 15/11/2021');
 INSERT INTO controle VALUES (329,	6,	'Sport',	7,	10,	2.00,	'2021-11-22',	'Controle de Sport du 22/11/2021');
 INSERT INTO controle VALUES (330,	6,	'Sport',	7,	20,	1.00,	'2021-12-18',	'Controle de Sport du 18/12/2021');
@@ -761,7 +761,7 @@ VALUES
 ('Marjorie',   'Blin'    ,'2004-02-28',  33551716    f   7),
 ('Florence',   'Dupuis' ,'2004-08-07',  37864801    f   7),
 ('Sylvie', 'Collet',  '2005-06-09',  39028666,    f,  7),
-('Steven',  'Vaillant',    '2005-09-15', 39291233,,    f,  7),
+('Steven',  'Vaillant',    '2005-09-15', 39291233,    f,  7),
 ('Pascal', 'Riou'    ,'2004-03-26',  42119585    f   7),
 ('Thi', 'Barbier', '2005-07-08',  44618350,    f,  7),
 ('Jessica', 'Louis'   ,'2004-03-26',  44809709    f   7),
