@@ -70,13 +70,13 @@ INSERT INTO niveau VALUES ('Terminale');
 -- Data for Name: classe; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-INSERT INTO classe VALUES (1,'Classe de 6em',  '6eme');
-INSERT INTO classe VALUES (2,'Classe de 5em',  '5eme');
-INSERT INTO classe VALUES (3,'Classe de 4em',  '4eme');
-INSERT INTO classe VALUES (4,'Classe de 3em',  '3eme');
-INSERT INTO classe VALUES (5,'Classe de second',  'Seconde');
-INSERT INTO classe VALUES (6,'Classe de premier',  'Premiere');
-INSERT INTO classe VALUES (7,'Classe de terminal',  'Terminale');
+INSERT INTO classe VALUES (1,'Classe de 6eme',  '6eme');
+INSERT INTO classe VALUES (2,'Classe de 5eme',  '5eme');
+INSERT INTO classe VALUES (3,'Classe de 4eme',  '4eme');
+INSERT INTO classe VALUES (4,'Classe de 3eme',  '3eme');
+INSERT INTO classe VALUES (5,'Classe de seconde',  'Seconde');
+INSERT INTO classe VALUES (6,'Classe de premiere',  'Premiere');
+INSERT INTO classe VALUES (7,'Classe de terminale',  'Terminale');
 
 --
 -- TOC entry 2933 (class 0 OID 41235)
@@ -101,12 +101,12 @@ INSERT INTO matiere VALUES ('Sport');
 --
 
 
-INSERT INTO professeur VALUES ('Marie',  'Vermine', '1969-03-25', 1, f);
-INSERT INTO professeur VALUES ('Gilbert',  'Leclerc',  '1986-04-06',2, t);
+INSERT INTO professeur VALUES ('Marie',  'Vermine', '1969-03-25', 1, 'f');
+INSERT INTO professeur VALUES ('Gilbert',  'Leclerc',  '1986-04-06',2, 't');
 INSERT INTO professeur VALUES ('Ann',  'Texier', '1989-07-24',3,'t');
-INSERT INTO professeur VALUES ('Yolande', 'Lavergne', '1980-07-12',4, f);
-INSERT INTO professeur VALUES ('Jennifer', 'Roche', '1976-03-07', 5, f);
-INSERT INTO professeur VALUES ('Colett',  'Da costa', '1981-01-13', 6, f);
+INSERT INTO professeur VALUES ('Yolande', 'Lavergne', '1980-07-12',4, 'f');
+INSERT INTO professeur VALUES ('Jennifer', 'Roche', '1976-03-07', 5, 'f');
+INSERT INTO professeur VALUES ('Colett',  'Da costa', '1981-01-13', 6, 'f');
 
 
 
@@ -252,7 +252,7 @@ INSERT INTO controle VALUES (133,	3,	'Mathematiques',	3,	20,	2.00,	'2021-10-26',
 INSERT INTO controle VALUES (134,	3,	'Mathematiques',	3,	20,	3.00,	'2022-02-08',	'Controle de Mathematiques du 08/02/2022');
 INSERT INTO controle VALUES (135,	3,	'Mathematiques',	3,	20,	2.00,	'2022-01-09',	'Controle de Mathematiques du 09/01/2022');
 INSERT INTO controle VALUES (136,	3,	'Mathematiques',	3,	20,	3.00,	'2021-11-03',	'Controle de Mathematiques du 03/11/2021');
-INSERT INTO controle VALUES (290,	6,	'Sport',	,2,	,10,	2,.'00,	'2021-',10-28',	'Controle de Sport du 28/10/2021');
+INSERT INTO controle VALUES (290,	6,	'Sport',	2 ,10,	2.00,	'2021-10-28',	'Controle de Sport du 28/10/2021');
 INSERT INTO controle VALUES (137,	3,	'Mathematiques',	4,	20,	3.00,	'2021-10-19',	'Controle de Mathematiques du 19/10/2021');
 INSERT INTO controle VALUES (138,	3,	'Mathematiques',	4,	20,	1.00,	'2022-02-19',	'Controle de Mathematiques du 19/02/2022');
 INSERT INTO controle VALUES (139,	3,	'Mathematiques',	4,	20,	1.00,	'2021-11-28',	'Controle de Mathematiques du 28/11/2021');
@@ -436,13 +436,13 @@ INSERT INTO controle VALUES (317,	6,	'Sport',	5,	10,	2.00,	'2022-03-08',	'Contro
 INSERT INTO controle VALUES (318,	6,	'Sport',	5,	20,	3.00,	'2022-05-17',	'Controle de Sport du 17/05/2022');
 INSERT INTO controle VALUES (319,	6,	'Sport',	5,	20,	1.00,	'2022-02-24',	'Controle de Sport du 24/02/2022');
 INSERT INTO controle VALUES (320,	6,	'Sport',	5,	20,	1.00,	'2022-01-10',	'Controle de Sport du 10/01/2022');
-INSERT INTO controle VALUES (321,	6,	'Sport',	6,	5,	,3.00,  '2021-11-10' ,  'Controle de Sport du 10/11/2021');
+INSERT INTO controle VALUES (321,	6,	'Sport',	6,	5,	3.00,  '2021-11-10' ,  'Controle de Sport du 10/11/2021');
 INSERT INTO controle VALUES (322,	6,	'Sport',	6,	20,	1.00,	'2022-06-01',	'Controle de Sport du 01/06/2022');
 INSERT INTO controle VALUES (323,	6,	'Sport',	6,	10,	2.00,	'2022-01-18',	'Controle de Sport du 18/01/2022');
 INSERT INTO controle VALUES (324,	6,	'Sport',	6,	20,	1.00,	'2021-10-05',	'Controle de Sport du 05/10/2021');
 INSERT INTO controle VALUES (325,	6,	'Sport',	6,	10,	3.00,	'2022-01-11',	'Controle de Sport du 11/01/2022');
 INSERT INTO controle VALUES (326,	6,	'Sport',	6,	20,	2.00,	'2022-04-05',	'Controle de Sport du 05/04/2022');
-INSERT INTO controle VALUES (327,	6,	'Sport',	6,	5,	,1.00,   '2022-01-02',  'Controle de Sport du 02/01/2022');
+INSERT INTO controle VALUES (327,	6,	'Sport',	6,	5,	1.00,   '2022-01-02',  'Controle de Sport du 02/01/2022');
 INSERT INTO controle VALUES (328,	6,	'Sport',	6,	20,	1.00,	'2021-11-15',	'Controle de Sport du 15/11/2021');
 INSERT INTO controle VALUES (329,	6,	'Sport',	7,	10,	2.00,	'2021-11-22',	'Controle de Sport du 22/11/2021');
 INSERT INTO controle VALUES (330,	6,	'Sport',	7,	20,	1.00,	'2021-12-18',	'Controle de Sport du 18/12/2021');
