@@ -510,7 +510,7 @@ INSERT INTO controle VALUES (386,	1,	'Francais',	1,	20,	1.00,	'2022-06-30',	'Con
 -- Dependencies: 200
 -- Data for Name: eleve; Type: TABLE DATA; Schema: public; Owner: -
 --
-INSERT INTO eleve (nom, prenom, date_naissance, num_eleve, est_dyslexique, classe)
+INSERT INTO eleve (prenom, nom, date_naissance, num_eleve, est_dyslexique, classe)
 VALUES
 ('Norbert',    'Barthelemy',  '2011-10-18',  11244206,    'f',   1),
 ('Pascal', 'Gervais', '2011-03-12',  12057283,    'f',   1),
