@@ -797,7 +797,7 @@ VALUES
 --
 
 --COPY public.enseigner (prof, matiere, classe) FROM stdin;
-/*INSERT INTO enseigner (prof, matiere, classe)
+INSERT INTO enseigner (prof, matiere, classe)
 VALUES
 (1,	'Francais',	1),
 (1,	'Francais',	2),
@@ -851,7 +851,7 @@ VALUES
 --
 
 --COPY public.notation (eleve, controle, note) FROM stdin;
-INSERT INTO notation (eleve, controle, note)
+/*INSERT INTO notation (eleve, controle, note)
 VALUES
 (11244206,	1,	8
 ),(12057283,	1,	7
