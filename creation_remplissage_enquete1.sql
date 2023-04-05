@@ -851,7 +851,7 @@ VALUES
 --
 
 --COPY public.notation (eleve, controle, note) FROM stdin;
-/*INSERT INTO notation (eleve, controle, note)
+INSERT INTO notation (eleve, controle, note)
 VALUES
 (11244206,	1,	8
 ),(12057283,	1,	7
@@ -24576,6 +24576,6 @@ VALUES
 (99597461,	383,	20),
 (99597461,	384,	20),
 (99597461,	385,	20),
-(99597461,	386,	20);*/
+(99597461,	386,	20);
 
 
