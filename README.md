@@ -4,7 +4,7 @@
                               
                                 -- ATTENTION : LES ELEVES NE DOIVENT PAS AVOIR ACCES A CE REPERTOIRE. --
 
-### Ce projet a été élaboré en amont par les élèves Sébastien Cortes et Eya Jelassi, sous la direction de la professeure Mme Anne Laurent.
+Ce projet a été élaboré en amont par les élèves Sébastien Cortes et Eya Jelassi, sous la direction de la professeure Mme Anne Laurent.
 
 Ceci est un dossier contenant les différents éléments afin de parvenir à la résolution d'enquêtes policières. Le but est de faire apprendre le language SQL à des élèves et étudiants de différents niveaux. Ce dossier est destiné aux enseignants et aux futurs contributeurs du projet.
 
