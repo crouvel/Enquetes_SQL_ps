@@ -40,9 +40,7 @@ Si vous souhaitez faire part d'une modification ou reprendre les scripts, ceux s
 
 ### Lien afin de résoudre l'enquête 3 : https://www.crunchydata.com/developers/playground?sql=https://raw.githubusercontent.com/crouvel/Enquetes_SQL_ps/main/creation_enquete3.sql
 
-### Afin de comprendre comment ces URLs de terminal Crunchy Data sont formés, veuillez vous référer à ce document explicatif :
-
-### https://docs.google.com/document/d/1RAXVV3_0ITIe01sTNNeF_v67dwO504tqH1kgz8kEueY/edit?usp=sharing
+### 🔍Afin de comprendre comment ces URLs de terminal Crunchy Data sont formés, veuillez vous référer à ce document explicatif : https://docs.google.com/document/d/1RAXVV3_0ITIe01sTNNeF_v67dwO504tqH1kgz8kEueY/edit?usp=sharing
 
 # Etapes à mettre en place 
 
