@@ -1,6 +1,6 @@
 # Enquetes_SQL_ps
 
-### Ce repertoire github a été créé par Clarence Rouvel, ainsi que ce fichier de documentation, à la destination des professeurs encadrants la résolution d'enquête.
+### Ce repertoire github a été créé par Clarence Rouvel, à la destination des professeurs encadrants la résolution d'enquête.
                               
                                 -- ATTENTION : LES ELEVES NE DOIVENT PAS AVOIR ACCES A CE REPERTOIRE. --
 
