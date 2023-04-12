@@ -4,7 +4,7 @@
 
 ### Ce répertoire github a été créé par Clarence Rouvel, à la destination des professeurs encadrants concernant la résolution d'enquêtes SQL per leurs élèves.
                               
-                   -- ATTENTION : LES ELEVES NE DOIVENT PAS AVOIR ACCES A CE REPERTOIRE. --
+                   -- ⚠️ : LES ELEVES NE DOIVENT PAS AVOIR ACCES A CE REPERTOIRE. --
 
 Ce projet a été élaboré en amont par les élèves Sébastien Cortes et Eya Jelassi, sous la direction de la professeure Mme Anne Laurent.
 
