@@ -1,27 +1,59 @@
 # Enquetes_SQL_ps
 
-Ceci est un dossier contenant les différents éléments afin de parvenir à la résolution d'enquêtes policières. Le but est de faire apprendre le language SQL à des élèves et étudiants de différents niveau.
+Ce repertoire github a été créé par Clarence Rouvel, ainsi que ce fichier de documentation, à la destination des professeurs encadrants la résolution d'enquête.
+                              
+                                -- ATTENTION : LES ELEVES NE DOIVENT PAS AVOIR ACCES A CE REPERTOIRE. --
 
-Ce projet a été élaboré par les élèves Sébastien Cortes et Eya Jelassi, sous la direction de Mme Anne Laurent. 
-Il a été repris par la suite par Clarence Rouvel.
+Ce a été élaboré en amont par les élèves Sébastien Cortes et Eya Jelassi, sous la direction de la professeure Mme Anne Laurent.
 
-# Prise de connaissances des différents fichiers du dossier 
+Ceci est un dossier contenant les différents éléments afin de parvenir à la résolution d'enquêtes policières. Le but est de faire apprendre le language SQL à des élèves et étudiants de différents niveaux. Ce dossier est destiné aux enseignants et aux futurs contributeurs du projet.
 
-#### Ici, chaque dossier et fichiers de ce répertoire seront explicités, afin de comprendre leur utilité et effectuer chaque étape convenablement.
+Si vous avez une quelconque question concernant les fichiers de code, et le déroulement/foncionnemement attendu des enquêtes, veuillez contacter : clarence.rouvel@etu.umontpellier.fr, ou Mme Anne Laurent : laurent@lirmm.fr.
 
+# Prise de connaissances des différents fichiers du dossier
 
-# Prise en main de l'outil 
+#### Ici, chaque dossier et fichiers de ce répertoire seront explicités, afin de comprendre leur utilité.
+
+Un GUIDE UTILISATEUR est présent et doit être lu au moment venu, idiaué dans ce document. Il permet de mener à bie et d'encadrer cette activité.
+
+Pour chacune des enquêtes, un dossier contenant les énoncés, avec et sans solutions, est présenté. Ils sont disponibles au format pdf et docx. Un fichier possède l’énoncé avec solution, et un autre fichier seulement l’énoncé, destinés à ceux qui devront pratiquer l’exercice. 
+
+Les différents niveaux attribués sont : collège, étudiant info et étudiant non-info. Le niveau augmente graduellement avec le numéro de l’enquête.
+
+Il y a ensuite les fichiers de scripts sql lancés automatiquement dans chaque terminal d’enquête. Les noms sont relativement explicites. Grâce à eux, les tables de données sont créées et pré-remplies au chargement des trois terminaux Crunchy Data.
+
+Nous avons : 
+
+- creation_remplissage_enquete1
+- creation_remplissage_enquete2
+- creation_remplissage_enquete3
+
+Si vous souhaitez faire part d'une modification ou reprendre les scripts, ceux sont fichiers dont il est question.
+
+# Prise en main de l'outil et ètapes à effctuer our rendre accessible le travail aux élèves
 
 Vous devez accéder à un outil en ligne permettant d'éxécuter des requêtes en SQL pour le langage PostGreSQL.
-
-### https://www.crunchydata.com/developers/playground
-
-C'est dans ce terminal que nous allons travailler ! 
-Donc retenez ces quelques points, avant que nous puissions démarrer !
 
 ### Lien afin de résoudre l'enquête 1 : https://www.crunchydata.com/developers/playground?sql=https://raw.githubusercontent.com/crouvel/Enquetes_SQL_ps/main/creation_remplissage_enquete1.sql
 
 ### Lien afin de résoudre l'enquête 2 : https://www.crunchydata.com/developers/playground?sql=https://raw.githubusercontent.com/crouvel/Enquetes_SQL_ps/main/creation_remplissage_enquete2.sql
 
 ### Lien afin de résoudre l'enquête 3 : https://www.crunchydata.com/developers/playground?sql=https://raw.githubusercontent.com/crouvel/Enquetes_SQL_ps/main/creation_enquete3.sql
+
+Afin de comprendre comment ces URLs de terminal Crunchy Data sont formés, veuillez vous référer à ce document explicatif :
+https://docs.google.com/document/d/1RAXVV3_0ITIe01sTNNeF_v67dwO504tqH1kgz8kEueY/edit?usp=sharing
+
+# Etapes à mettre en place 
+
+1. Lisez ATTENTIVEMENT LE GUIDE UTLISATEUR PRESENT DANS LE REPERTOIRE
+
+2. Vous avez ensuite le choix : Communiquez le guide utilisateur destiné aux élèves 
+
+ou leur donner les liens du terminal d'enquête correspondant à leur niveau
+
+3. Rappelez bien les consignes, bien au'inscrites dans les manuels utilisateurs professeurs encadrants et élèves
+
+4. Puis c'est à vous et à eux de jouer et en espérant que vos élèves soient des champions du SQL 🏆 !
+
+
 
