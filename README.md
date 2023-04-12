@@ -16,7 +16,7 @@ Si vous avez une quelconque question concernant les fichiers de code, et le dér
 
 Un GUIDE UTILISATEUR est présent et doit être lu au moment venu, indiqué dans ce document. Il permet de mener à bien et d'encadrer l'activité des élèves.
 
-Pour chacune des enquêtes, un dossier contenant les énoncés, avec et sans solutions, est présenté. Ils sont disponibles au format pdf et docx. Un fichier possède l’énoncé avec solution, et un autre fichier seulement l’énoncé, destinés à ceux qui devront pratiquer l’exercice. 
+Pour chacune des enquêtes, un dossier contenant les énoncés, avec et sans solutions, est présent. Ils sont disponibles au format pdf et docx. Un fichier possède l’énoncé avec solution, et un autre fichier seulement l’énoncé, destinés à ceux qui devront pratiquer l’exercice. 
 
 Les différents niveaux attribués sont : collège, étudiant non-info et étudiant info. Le niveau augmente graduellement avec le numéro de l’enquête.
 
