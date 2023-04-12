@@ -38,13 +38,13 @@ Si vous souhaitez faire part d'une modification ou reprendre les scripts, ceux s
 
 ### Lien afin de résoudre l'enquête 2 : https://www.crunchydata.com/developers/playground?sql=https://raw.githubusercontent.com/crouvel/Enquetes_SQL_ps/main/creation_remplissage_enquete2.sql
 
-### Lien afin de résoudre l'enquête 3 : https://www.crunchydata.com/developers/playground?sql=https://raw.githubusercontent.com/crouvel/Enquetes_SQL_ps/main/creation_enquete3.sql
+### Lien afin de résoudre l'enquête 3 : https://www.crunchydata.com/developers/playground?sql=https://raw.githubusercontent.com/crouvel/Enquetes_SQL_ps/main/creation_remplissage_enquete3.sql
 
 ### 🔍Afin de comprendre comment ces URLs de terminal Crunchy Data sont formés, veuillez vous référer à ce document explicatif : https://docs.google.com/document/d/1RAXVV3_0ITIe01sTNNeF_v67dwO504tqH1kgz8kEueY/edit?usp=sharing
 
 # Etapes à mettre en place 
 
-### 1. Lisez ATTENTIVEMENT LE GUIDE UTLISATEUR PRESENT DANS LE REPERTOIRE
+### 1. Lisez ATTENTIVEMENT LE GUIDE UTLISATEUR PRESENT DANS LE REPERTOIRE : https://docs.google.com/document/d/12FjjMdMX78n74GMTEztMrOdcgO6vWCdfWa-AJdI60KA/edit?usp=sharing
 
 ### 2. Vous avez ensuite le choix : Communiquez le guide utilisateur destiné aux élèves 
 
