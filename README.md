@@ -8,7 +8,7 @@ Ce projet a été élaboré en amont par les élèves Sébastien Cortes et Eya J
 
 Ceci est un dossier contenant les différents éléments pour encadrer la résolution d'enquêtes policières en SQL. Le but est de faire apprendre le language SQL à des élèves et étudiants de différents niveaux. Ce dossier est destiné aux enseignants et aux futurs contributeurs du projet.
 
-Si vous avez une quelconque question concernant les fichiers de code, et le déroulement et foncionnemement attendus des enquêtes, veuillez contacter : clarence.rouvel@etu.umontpellier.fr, ou Mme Anne Laurent : laurent@lirmm.fr.
+Si vous avez une quelconque question concernant les fichiers de code, et le déroulement et fonctionnemement attendus des enquêtes, veuillez contacter : clarence.rouvel@etu.umontpellier.fr, ou Mme Anne Laurent : laurent@lirmm.fr.
 
 # Prise de connaissances des différents fichiers du dossier
 
