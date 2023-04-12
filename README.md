@@ -44,7 +44,7 @@ Si vous souhaitez faire part d'une modification ou reprendre les scripts, ceux s
 
 # Etapes à mettre en place 
 
-### 1. Lisez ATTENTIVEMENT LE GUIDE UTLISATEUR PRESENT DANS LE REPERTOIRE
+### 1. Lisez ATTENTIVEMENT LE GUIDE UTLISATEUR PRESENT DANS LE REPERTOIRE : https://docs.google.com/document/d/12FjjMdMX78n74GMTEztMrOdcgO6vWCdfWa-AJdI60KA/edit?usp=sharing
 
 ### 2. Vous avez ensuite le choix : Communiquez le guide utilisateur destiné aux élèves 
 
