@@ -14,7 +14,7 @@ Si vous avez une quelconque question concernant les fichiers de code, et le dér
 
 #### Ici, chaque dossier et fichiers de ce répertoire seront explicités, afin de comprendre leur utilité.
 
-Un GUIDE UTILISATEUR est présent et doit être lu au moment venu, indiué dans ce document. Il permet de mener à bien et d'encadrer l'activité.
+Un GUIDE UTILISATEUR est présent et doit être lu au moment venu, indiqué dans ce document. Il permet de mener à bien et d'encadrer l'activité des élèves.
 
 Pour chacune des enquêtes, un dossier contenant les énoncés, avec et sans solutions, est présenté. Ils sont disponibles au format pdf et docx. Un fichier possède l’énoncé avec solution, et un autre fichier seulement l’énoncé, destinés à ceux qui devront pratiquer l’exercice. 
 
