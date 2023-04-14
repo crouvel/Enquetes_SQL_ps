@@ -26,8 +26,8 @@ CREATE TABLE IF NOT EXISTS client (
     sexe_client sexe NOT NULL,
     date_naissance DATE NOT NULL,
     date_inscription TIMESTAMP NOT NULL,
-    num_tel VARCHAR(10);
-    email VARCHAR(50);
+    num_tel VARCHAR(10),
+    email VARCHAR(50),
 	ville_naissance INTEGER REFERENCES ville NOT NULL,
 	domicile INTEGER REFERENCES adresse NOT NULL
 );
