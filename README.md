@@ -48,7 +48,7 @@ Si vous souhaitez faire part d'une modification ou reprendre les scripts, ceux s
 
 ### 1. Lisez ATTENTIVEMENT LE GUIDE UTLISATEUR PRESENT DANS LE REPERTOIRE : https://docs.google.com/document/d/12FjjMdMX78n74GMTEztMrOdcgO6vWCdfWa-AJdI60KA/edit?usp=sharing
 
-### 2. Vous avez ensuite le choix : Communiquez le guide utilisateur destiné aux élèves 
+### 2. Vous avez ensuite le choix : Communiquez le guide utilisateur destiné aux élèves via le lien github : https://github.com/crouvel/Enquete_ps_eleves
 
 ### ou leur donner les liens du terminal d'enquête correspondant à leur niveau
 
