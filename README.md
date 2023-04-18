@@ -30,7 +30,7 @@ Nous avons :
 - creation_remplissage_enquete2
 - creation_remplissage_enquete3
 
-Si vous souhaitez faire part d'une modification ou reprendre les scripts, ceux sont fichiers dont il sera question.
+Si vous souhaitez faire part d'une modification ou reprendre les scripts, ceux sont ces fichiers dont il sera question.
 
 # Prise en main de l'outil et étapes à effectuer pour rendre accessible le travail aux élèves
 
